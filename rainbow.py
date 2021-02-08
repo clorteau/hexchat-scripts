@@ -59,6 +59,6 @@ def keyPressed(word, word_eol, userdata):
     msg = colorize_part_of_text(msg)
     hexchat.command("settext %s" % msg)
 
-print('Rainbox text script loaded')
+print('Rainbow text script loaded')
 hexchat.hook_command('r', r, help='usage: /r text - Sends [text] in multiple colors')
 hexchat.hook_print('Key Press', keyPressed)
