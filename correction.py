@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 __module_name__ = 'Correction'
 __module_version__ = '0.1'
 __module_description__ = 'Replace an expression with another in a past message'
